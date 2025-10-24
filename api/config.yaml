@@ -1,0 +1,13 @@
+server:
+  host: "0.0.0.0"
+  port: 8000
+
+security:
+  # 운영에서는 프런트 도메인만 열어두세요.
+  allowed_origins:
+    - "http://localhost:5500"
+
+vt:
+  base_url: "https://www.virustotal.com/api/v3"
+  poll_interval_sec: 1.0
+  poll_timeout_sec: 25

@@ -1,0 +1,4 @@
+VT_BASEURL = "https://www.virustotal.com/api/v3"
+VT_APIKEY = "c9d26dfca1facb206cbe93da6ea7608759a809badf480b339b8b23dea33e9450"
+VT_POLL_TIMEOUT_SEC = 20
+VT_POLL_INTERVAL_SEC = 1
